@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="discount.css">
+</head>
+<body>
+<div class="container">
+  <h1>DISCOUNT CALCULATOR</h1>
+  <div class="calculator">
+  <form>
+  <label for="amount">ENTER AMOUNT</label><br>
+  <input type="text" id="amount" required><br>
+  <label for="discount">ENTER DISCOUNT AMOUNT</label><br>
+  <input type="text" id="discount" required><br>
+  <div class="list">
+  <label for="tax">ENTER GST</label>
+  <select id="gst">
+    <option value="5">5%</option>
+    <option value="12">12%</option>
+    <option value="18">18%</option>
+    <option value="28">28%</option>
+  </select></div>
+  <button id="submit" type="submit">CALCULATE</button>
+  <div id="payamount"> Payable amount is 
+    <span id="net">0.00</span>
+    <h3>THANKS FOR SHOPPING!</h3>
+  </div>
+</form>
+</div>
+</div>
+<script src="discount.js"></script>
+</body>
+</html> 
+
+

@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(90deg,#330000,#cc0000);
+    }
+    h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+      }
+     .container{
+    display: inline;
+    position: fixed;
+    background: #1F030C;
+    display: block;
+    height:400px;
+    width: 300px;
+    -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  }
+  .calculator{
+    background:linear-gradient(0,blue, #f7f7f7);
+    height: 100%;
+    padding: 10px;
+  }
+input ,select{
+  margin: 20px;
+    margin-top:5px;}
+  
+button{
+  width: 150px;
+  text-align: center;
+  display: block;
+  padding: 20px;
+  margin: 30px auto;
+  background: #AD133A;
+}
+button:hover{
+  background: #4c2827;
+  border-bottom-color: #111;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+label{
+  margin: 20px;
+}
+#payamount{
+  text-align: center;
+  margin: 30px auto;
+}
+.list{
+  display: block;
+  width: 50;
+}
+select{
+  width: 50px;
+}
